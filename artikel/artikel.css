@@ -1,0 +1,85 @@
+body {
+  background: #ecf0f1;
+}
+
+.wrapper {
+  backgorund: grey;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+  background-color: #bdc3c7;
+}
+
+.sidebar {
+  width: 400px;
+  float: left;
+}
+
+.content {
+  width: 600px;
+  float: right;
+}
+
+.container .clear {
+  clear: both;
+}
+
+#logo {
+  float: left;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+}
+
+#logo h1 {
+  max-width: 100%;
+  height: auto;
+}
+
+#menu {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  float: right;
+  width: 750px;
+}
+
+#menu li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#menu li a {
+  font-family: Verdana, Geneva, Tahoma, Sans-serif;
+  color: #34495e;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blog-single {
+  float: left;
+  max-width: 720px;
+  margin: 50px 10px 20px;
+}
+
+.blog-single img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.recent-article {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.recent-article ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
